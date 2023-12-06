@@ -38,8 +38,6 @@ type Ingredient {
   id: ID!
   "A detailed description of the ingredient needed in the recipe."
   detailedDescription: String
-  "Display text for the ingredient"
-  text: String @deprecated(reason: "Use detailedDescription")
   "The name of an ingredient"
   name: String
   "A potential substitute for the ingredient, if available"
